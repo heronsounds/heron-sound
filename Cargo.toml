@@ -1,0 +1,15 @@
+[package]
+name = "heron-sound"
+version = "1.0.0"
+edition = "2021"
+authors = ["Heron Sounds <contact@heronsounds.com>"]
+description = "Core DSP library for Heron Sounds plugins"
+license = "MIT OR Apache-2.0"
+keywords = ["dsp", "audio", "plugin"]
+categories = ["multimedia::audio"]
+readme = "README.md"
+repository = "https://github.com/heronsounds/heron-sound.git"
+homepage = "https://github.com/heronsounds/heron-sound.git"
+exclude = ["/.*", "/justfile"]
+
+[dependencies]
